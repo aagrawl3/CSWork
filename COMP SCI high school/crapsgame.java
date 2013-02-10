@@ -1,0 +1,30 @@
+import java.util.*;
+public class crapsgame{
+	public static void main(String[] args){
+		int wins = 0;
+		int temp = 0;
+		int point = 0;
+		int d1 = 0;
+		int d2 = 0;
+		int val = 0;
+		for(int i=0; i<100000; i++){
+			d1 = (int)(Math.random()*6+1);
+			d2 = (int)(Math.random()*6+1);
+			if(d1+d2==7)
+				wins++;
+			else if(d1+d2==11)
+				wins++;
+			else if(d1+d2==4||d1+d2==5||d1+d2==6||d1+d2==8||d1+d2==9||d1+d2==10){
+				point=d1+d2;
+				while(temp!=point){
+					temp=((int)(Math.random()*6+1)) +((int)(Math.random()*6+1));
+					if(temp==point)
+						wins++;	
+					if(temp==7)
+						break;
+				}
+			}
+		}
+		System.out.println((double)wins/1000);
+	}
+}

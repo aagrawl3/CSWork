@@ -1,0 +1,19 @@
+public class vector2D{
+	private double xcomp, ycomp;
+	public vector2D(double x, double y){
+		xcomp=x;
+		ycomp=y;
+	}
+	public double magnitude(){
+		return (Math.sqrt(xcomp*xcomp + ycomp*ycomp));
+	}
+	public double angle(){
+		return(Math.atan(ycomp/ycomp));
+	}
+	public void rotate(double theta){
+		double temp = xcomp;
+		theta = theta*Math.PI/180.0;
+		xcomp=temp*Math.cos(theta) - ycomp*Math.sin(theta);
+		ycomp=temp*Math.sin(theta) + ycomp*Math.cos(theta);
+	}
+}

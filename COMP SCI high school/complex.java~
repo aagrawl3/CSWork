@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class complex;
+public static void main(String[]args)
+{
+	Scanner.inp=new Scanner (System.in);
+	System.out.println("Enter the values of a then b for the complex number a + bi");
+	double a = inp.nextDouble();
+	double b = inp.nextDouble();
+	System.out.println("Enter the values of c then d for the second complex number c + di");
+	double c = inp.nextDouble();
+	double d = inp.nextDouble();
+	System.out.println("Select a function: 1-Add, 2-Subtract, 3-Multiply, 4-Divide, 5-Put to any power, 6-Anything Else")
+	int t = inp.nextInt();
+	if(t=1)
+	{
+		double s = add(double a, double b, double c, double d);
+		return s;
+	}
+	if(t=2)	
+
+
+
+
+
+		public double add(double a, double b, double c, double d);
+		{
+			double Y;
+			double Z;
+			Y = a + c;
+			Z = b + d;
+			System.out.printlni"The sum is " + Y + Z + "i");
+		}
+	}
+}
+
+	
+

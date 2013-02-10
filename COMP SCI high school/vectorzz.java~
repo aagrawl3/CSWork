@@ -1,0 +1,68 @@
+public class vectorzz{
+	private double xcomp;
+	private double ycomp;
+	private double mag;
+
+	public Vector2D (double x, double y) {
+	xcomp = x;
+	ycomp = y;
+	mag=magnitude(); }
+
+	public Vector2D () {   //default constructor
+	this.xcomp = 0;
+	this.ycomp = 0; }
+
+	public Vector2D (double x) {
+	xcomp = x;
+	ycomp = 0;}
+
+	public Vector2D (Vector2D input) { //copies a given vector
+	this.xcomp = input.getxcomp();
+	this.ycomp = input.getycomp(); }
+
+	public double magnitude () {
+	return Math.sqrt(Math.pow(xcomp,2) + Math.pow(ycomp,2));
+	}
+
+	public double angle () {
+	return (Math.atan(xcomp/ycomp));}
+
+	public double getxcomp() {
+	return (xcomp);}
+
+	public double getycomp() {
+	return (ycomp);}
+
+	public Vector2D rotate(double theta) {
+	theta = theta*Math.PI/180.0;
+	double temp1 = xcomp;
+	xcomp = temp1*Math.cos(theta) - ycomp*Math.sin(theta);
+	ycomp = temp1*Math.sin(theta) + ycomp*Math.cos(theta);
+	Vector2D z = new Vector2D (xcomp,ycomp);
+	return (z);}
+
+	public Vector2D addvector (Vector2D Y) {
+	double x = xcomp + Y.getxcomp();
+	double y = ycomp + Y.getycomp();
+	Vector2D z = new Vector2D (x,y);
+	return (z);}
+
+	public double dotproduct (Vector2D Y) {
+	double product = xcomp*Y.getxcomp() + ycomp*Y.getycomp();
+	return (product);}
+
+	/* Note: Since all of our vectors are in 2D (Example: 3i + 2j), 
+	the cross product will only produce a k vector in the 
+	third dimension. */
+	public Vector2D crossproduct (Vector2D Y) { 
+	double k = xcomp*Y.getycomp() - ycomp*Y.getxcomp();
+	Vector2D z = new Vector2D (k);
+	return z;}
+
+	public Vector2D scalarmultiply (double scalar) {
+	double x = scalar*xcomp;
+	double y = scalar*ycomp;
+	Vector2D z = new Vector2D (x,y);
+	return (z);}
+	
+	}

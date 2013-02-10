@@ -1,0 +1,104 @@
+Multiple Choice: A really cool guy throws a rock from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. How long 
+does the rock remain in air?
+A 8.49 seconds
+B 1.648 seconds
+C 5.071 seconds
+D 2.37 seconds
+E 3.02 seconds
+The answer is c
+
+Multiple Choice: A physics student launches a grenade from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. How fast 
+is the grenade moving after 3.0 seconds?
+A 13.955 m/s
+B 8.876 m/s
+C 10.53 m/s
+D 5.35 m/s
+E 7.65 m/s
+The answer is E
+
+Multiple Choice: Prithvi throws a tennis ball from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. What is the 
+maximum height achieved by the ball?
+A 72.768 meters
+B 62.563 meters
+C 68.207 meters
+D 64.437 meters
+E 60.606 meters
+The answer is C
+
+Multiple Choice: Kevin hits a golf ball from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. When the ball 
+hits the ground, how far is it from the tee?
+A 63.299 meters
+B 53.65 meters
+C 87.763 meters
+D 50.035 meters
+E 72.698 meters
+The answer is A
+
+Multiple Choice: Vishnu throws a textbook from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. Upon hitting 
+the ground, what is the angle the book makes with the ground?
+A 38.293 degrees
+B 15.766 degrees
+C 19.661 degrees
+D 44.122 degrees
+E 16.528 degrees
+The answer is D
+
+Multiple Choice: A really cool guy throws a rock from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. How long 
+does the rock remain in air?
+A 5.358 seconds
+B 11.054 seconds
+C 8.454 seconds
+D 1.37 seconds
+E 6.858 seconds
+The answer is E
+
+Multiple Choice: A physics student launches a grenade from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. How fast 
+is the grenade moving after 3.0 seconds?
+A 12.74 m/s
+B 10.688 m/s
+C 14.233 m/s
+D 5.35 m/s
+E 9.729 m/s
+The answer is E
+
+Multiple Choice: Prithvi throws a tennis ball from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. What is the 
+maximum height achieved by the ball?
+A 63.317 meters
+B 63.414 meters
+C 69.985 meters
+D 60.606 meters
+E 62.646 meters
+The answer is D
+
+Multiple Choice: Kevin hits a golf ball from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. When the ball 
+hits the ground, how far is it from the tee?
+A 54.489 meters
+B 50.0 meters
+C 67.038 meters
+D 75.713 meters
+E 86.082 meters
+The answer is E
+
+Multiple Choice: Vishnu throws a textbook from a height of 50.0 meters at a 
+speed of 15.0 m/s with an angle of 45.0 degrees from the positive x-axis. Upon hitting 
+the ground, what is the angle the book makes with the ground?
+A 43.229 degrees
+B 42.813 degrees
+C 15.766 degrees
+D 19.791 degrees
+E 18.514 degrees
+The answer is E
+
+Free Response: Thomas throws a basketball from a height of 0.0 meters at a 
+speed of 25.0 m/s with an angle of 75.964 degrees from the positive x-axis. What is the 
+greatest height attained by the ball?
+

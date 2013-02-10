@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class vectortest{
+public static void main(String[] args)
+{
+Scanner inp=new Scanner(System.in);
+System.out.println("Enter the X component then Y component");
+double x=inp.nextDouble();
+double y=inp.nextDouble();
+Vector2D z=new Vector2D(x,y);
+System.out.println("Enter another X component then Y component");
+double q=inp.nextDouble();
+double w=inp.nextDouble();
+Vector2D k=new Vector2D(q,w);
+System.out.println("The magnitude of this vector is: "+z.magnitude());
+Vector2D b=z.addvector(k);
+double r=z.scalarproduct(k);
+System.out.println("The dot product is: "+r);
+System.out.println("The x component of the two vectors added is: "+b.getxcomp()+"The y component is: "+b.getycomp());
+if (x>0 && y<0)
+{
+double m=(z.angle()*180)/Math.PI+360;
+System.out.println("The angle in degrees from the positive x-axis is: " +m);
+}
+else if (x==0 && y>0)
+{
+System.out.println("The angle in degrees from the positive x-axis is: "+90);
+}
+else if (x==0 && y<0)
+{
+System.out.println("The angle in degrees from the positive x-axis is: "+270);
+}
+else if (x==0 && y==0)
+{
+System.out.println("This is a point; no degrees from the x-axis exists");
+}
+else if (x>0 && y>=0)
+{
+System.out.println("The angle in degrees from the positive x-axis for the first vector is: "+(z.angle()*180)/Math.PI);
+}
+else
+{
+double g=(z.angle()*180)/Math.PI+180;
+System.out.println("The angle in degrees from the positive x-axis is: "+g);
+}
+System.out.println("Give the rotation angle counterclockwise (Answer will be rotated components of first vector): ");
+double h=inp.nextDouble();
+z.rotate(h);
+}}

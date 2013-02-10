@@ -1,0 +1,30 @@
+Java Generics
+
+ArrayList<String>: An array with strings in it.
+ArrayList<Molecule>: An array with molecules in it
+
+Syntax
+ArrayList<String> X = new ArrayList<String>();
+String atom1 = "Hydrogen";
+X.add(atom1)
+X.add(atom2) <--- Adds string directly after previous one
+
+
+ArrayList<E> x = new ArrayList<E>();
+E denotes any generic class
+
+Accessing your ArrayList
+String anything = X.get(j) where j is some integer
+
+The "set" function: Changes a part of a ArrayList
+X.add(3,y); <--- changes position 3 in the ArrayList into y
+
+Length Function
+= C.size
+
+Deleting Values: Gets rid of the value at a point
+C.remove(3)  <-- all objects after this point are shifted left 1 unit
+
+double method1(ArrayList<string> x)
+{
+}

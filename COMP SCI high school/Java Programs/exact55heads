@@ -1,0 +1,30 @@
+public class exact55heads{
+public static void main(String[] args)
+{
+int heads=0;
+int tails=0;
+int timesheads;
+int timestails;
+for (int z=0;i<1000;z++)
+{
+for (int i=0;i<100;i++)
+{
+if (Math.random()<0.5)
+{
+heads++;
+}
+else
+{
+tails++;
+}
+}
+if (heads=55)
+{
+timesheads++;
+}
+else 
+{
+timestails++;
+}}
+System.out.println(timesheads/(timestails+timesheads));
+}}

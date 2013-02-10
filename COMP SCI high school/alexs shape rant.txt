@@ -1,0 +1,13 @@
+
+	/* What you should do is actually public boolean equals(Shape x), and do if(compare(this, x)...etc etc, 
+	and then with the new shape initialized in shapetest.java to create x.equals(y)*/
+	
+	/*public double findperimeter(double sd, double no);
+	{
+		return sd * no;		
+	}
+	
+	public double findarea(double sd, double no);
+	{
+		return ((sd * sd * no)/(4 * Math.tan(Math.PI/no)));
+	}*/

@@ -1,0 +1,16 @@
+project public class complex
+Constructors
+1. Default
+2. Other constructors  complex(double x, double y)
+		       complex(double x)  x+i0
+3. Functions:
+	Z = Complex.add(x,y)
+	Z = Complex.multiply(x,y)
+	Z = Complex.divide (x,y)
+	double w = Complex.magnitude(x)
+	Z = Complex.power(x,3)
+	Z = x+iy
+  	= r(Cos0 + isin0)
+	z^6 = r^6(cos60 + isin60)
+4. System.out.println(Z)
+
